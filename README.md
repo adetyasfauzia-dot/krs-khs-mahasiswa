@@ -1,53 +1,5 @@
 # SIAKAD Gallery — Sistem Informasi KRS Mahasiswa
 
-Portal akademik terpadu untuk pengisian KRS, input nilai, dan manajemen data akademik berbasis **Laravel**.
-
----
-
-## Tech Stack
-
-- **Backend:** Laravel (PHP 8.1+)
-- **Database:** MySQL / MariaDB
-- **Frontend:** Blade Templating + CSS Custom + Bootstrap Icons
-- **Auth:** Laravel Session-based, multi-guard (Mahasiswa / Dosen / Admin)
-
----
-
-## Cara Menjalankan
-
-### 1. Clone & Install Dependencies
-```bash
-git clone <repo-url>
-cd web-krs-mahasiswa
-composer install
-```
-
-### 2. Konfigurasi Environment
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-Edit `.env`, sesuaikan koneksi database:
-```env
-DB_DATABASE=web_krs
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 3. Buat Database & Jalankan Migrasi
-```bash
-php artisan migrate --seed
-```
-
-### 4. Jalankan Server
-```bash
-php artisan serve
-```
-
-Buka `http://localhost:8000`
-
----
 
 ## Akun Demo
 
