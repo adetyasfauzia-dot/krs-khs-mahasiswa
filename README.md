@@ -38,14 +38,6 @@ Portal akademik terpadu untuk pengisian KRS, input nilai, dan manajemen data aka
 
 ---
 
-## Tech Stack
-
-- **Backend:** Laravel (PHP 8.1+)
-- **Database:** MySQL / MariaDB
-- **Frontend:** Blade Templating + CSS Custom + Bootstrap Icons
-- **Auth:** Laravel Session-based, multi-guard (Mahasiswa / Dosen / Admin)
-
----
 
 ## Cara Menjalankan
 
